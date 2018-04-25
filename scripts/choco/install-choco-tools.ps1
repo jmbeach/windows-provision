@@ -6,7 +6,7 @@ $tools = @(
 	"googlechrome",
 	"linqpad4",
 	"mssqlservermanagementstudio2014express",
-	"notepad++",
+	"notepadplusplus
 	"python2",
 	"teamviewer",
 	"visualstudio2017community",
