@@ -1,9 +1,9 @@
 $tools = @(
+  "git",
   "7zip",
   "cmder",
   "curl",
   "ffmpeg",
-  "git",
   "nvm",
   "vim",
   "wget",
