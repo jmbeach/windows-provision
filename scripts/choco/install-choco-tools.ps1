@@ -1,6 +1,7 @@
 $tools = @(
 	"autohotkey",
 	"adobereader",
+	"docker",
 	"firefox",
 	"gimp",
 	"googlechrome",
@@ -10,9 +11,10 @@ $tools = @(
 	"python2",
 	"spacesniffer",
 	"teamviewer",
+	"vim",
+	"virtualbox",
 	"visualstudio2017community",
 	"visualstudiocode",
-	"vim",
 	"vlc"
 )
 
