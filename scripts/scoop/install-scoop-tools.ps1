@@ -5,7 +5,6 @@ $tools = @(
   "curl",
   "ffmpeg",
   "nvm",
-  "vim",
   "wget",
   "yarn"
 )

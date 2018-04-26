@@ -11,7 +11,7 @@ $vimfiles = "$root\vim-config"
 Copy-Item "$vimfiles\_vimrc" ~\_vimrc -Force
 
 # install vundle
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~\vimfiles\bundle\Vundle.vim
 
 # install vundle Plugins
 vim +PluginInstall +qall

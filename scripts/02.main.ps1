@@ -15,3 +15,4 @@
 
 # get my configurations
 & ".\dot files\get-dot-files.ps1"
+& ".\dot files\deploy.ps1"
