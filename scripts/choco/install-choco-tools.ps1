@@ -8,6 +8,7 @@ $tools = @(
 	"mssqlservermanagementstudio2014express",
 	"notepadplusplus
 	"python2",
+	"spacesniffer",
 	"teamviewer",
 	"visualstudio2017community",
 	"visualstudiocode",
