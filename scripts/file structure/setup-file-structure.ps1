@@ -6,3 +6,4 @@ mkdir D:\code\bitbucket\jmbeach
 mkdir D:\code\sandbox
 mkdir ~\bin
 mkdir ~\bin\shims
+mkdir .\logs

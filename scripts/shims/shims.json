@@ -1,7 +1,19 @@
 [
 	{
+		"in": "C:\\Program Files\\Angry IP Scanner\\ipscan.exe",
+		"out": "~\\bin\\shims\\angryip.exe"
+	}, {
 		"in": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
 		"out": "~\\bin\\shims\\chrome.exe"
+	}, {
+		"in": "C:\\tools\\cygwin\\bin\\bash.exe",
+		"out": "~\\bin\\shims\\cygwin.exe"
+	}, {
+		"in": "C:\\Users\\vagrant\\AppData\\Local\\JetBrains\\Installations\\dotPeek12\\dotPeek64.exe",
+		"out": "~\\bin\\shims\\dotpeek.exe"
+	}, {
+		"in": "C:\\Program Files\\GIMP 2\\bin\\gimp-2.8.exe",
+		"out": "~\\bin\\shims\\gimp.exe"
 	}, {
 		"in": "C:\\Program Files\\IIS Express\\iisexpress.exe",
 		"out": "~\\bin\\shims\\iisexpress64.exe"
@@ -20,6 +32,12 @@
 	}, {
 		"in": "C:\\ProgramData\\chocolatey\\lib\\RapidEE\\tools\\rapidee.exe",
 		"out": "~\\bin\\shims\\rapidee.exe"
+	}, {
+		"in": "C:\\Users\\vagrant\\scoop\\apps\\git\\current\\usr\\bin\\ssh.exe",
+		"out": "~\\bin\\shims\\ssh.exe"
+	}, {
+		"in": "C:\\Users\\vagrant\\scoop\\apps\\git\\current\\usr\\bin\\ssh-keygen.exe",
+		"out": "~\\bin\\shims\\ssh-keygen.exe"
 	}, {
 		"in": "C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\ManagementStudio",
 		"out": "~\\bin\\shims\\ssms12.exe"

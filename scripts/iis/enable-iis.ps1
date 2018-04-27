@@ -19,14 +19,14 @@ Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerManagementTools 
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-IIS6ManagementCompatibility -NoRestart -LogPath $logPath
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-Metabase -NoRestart -LogPath $logPath
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-ManagementConsole -NoRestart -LogPath $logPath
-Enable-WindowsOptionalFeature -Online -FeatureName IIS-BasicAuthentication -NoRestart
-Enable-WindowsOptionalFeature -Online -FeatureName IIS-WindowsAuthentication -NoRestart
-Enable-WindowsOptionalFeature -Online -FeatureName IIS-StaticContent
-Enable-WindowsOptionalFeature -Online -FeatureName IIS-DefaultDocument
-Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebSockets
-Enable-WindowsOptionalFeature -Online -FeatureName IIS-ApplicationInit
-Enable-WindowsOptionalFeature -Online -FeatureName IIS-NetFxExtensibility45
-Enable-WindowsOptionalFeature -Online -FeatureName IIS-ASPNET45
-Enable-WindowsOptionalFeature -Online -FeatureName IIS-ISAPIExtensions
-Enable-WindowsOptionalFeature -Online -FeatureName IIS-ISAPIFilter
-Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpCompressionStatic
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-BasicAuthentication -NoRestart -LogPath $logPath
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-WindowsAuthentication -NoRestart -LogPath $logPath
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-StaticContent -NoRestart -LogPath $logPath
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-DefaultDocument -NoRestart -LogPath $logPath
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebSockets -NoRestart -LogPath $logPath
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ApplicationInit -NoRestart -LogPath $logPath
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-NetFxExtensibility45 -NoRestart -LogPath $logPath
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ASPNET45 -NoRestart -LogPath $logPath
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ISAPIExtensions -NoRestart -LogPath $logPath
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ISAPIFilter -NoRestart -LogPath $logPath
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpCompressionStatic -NoRestart -LogPath $logPath
