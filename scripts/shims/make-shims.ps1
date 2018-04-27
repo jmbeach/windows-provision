@@ -4,3 +4,5 @@
 # gimp
 # ssh
 # visual studio
+# mstest
+# spacesniffer

@@ -16,4 +16,4 @@ Copy-Item "$vimfiles\_vimrc" ~\_vimrc -Force
 git clone https://github.com/VundleVim/Vundle.vim.git $HOME\vimfiles\bundle\Vundle.vim
 
 # install vundle Plugins
-start 'C:\Program Files (x86)\vim\vim80\vim.exe' +PluginInstall +qall
+'C:\Program Files (x86)\vim\vim80\gvim.exe' +PluginInstall +qall
