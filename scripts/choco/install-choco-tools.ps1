@@ -1,7 +1,10 @@
 $tools = @(
+	"angryip",
 	"autohotkey",
 	"adobereader",
+	"cygwin",
 	"docker",
+	"dotpeek",
 	"firefox",
 	"gimp",
 	"googlechrome",
