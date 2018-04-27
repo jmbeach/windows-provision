@@ -1,0 +1,12 @@
+[
+	{
+		"in": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+		"out": "~\\bin\\shims\\chrome.exe"
+	}, {
+		"in": "C:\\Program Files\\IIS Express\\iisexpress.exe",
+		"out": "~\\bin\\shims\\iisexpress64.exe"
+	}, {
+		"in": "C:\\Program Files (x86)\\IIS Express\\iisexpress.exe",
+		"out": "~\\bin\\shims\\iisexpress32.exe"
+	}
+]

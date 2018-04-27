@@ -1,5 +1,3 @@
-# chrome
-# iisexpress
 # msbuild
 # procexp
 # rapidee

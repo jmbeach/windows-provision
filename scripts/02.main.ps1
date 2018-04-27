@@ -13,7 +13,11 @@
 # install custom software
 & ".\custom software\1password\get-1password.ps1"
 & ".\custom software\simian\get-simian.ps1"
+& ".\custom software\iis\get-iis.ps1"
 
 # get my configurations
 & ".\dot files\get-dot-files.ps1"
 & ".\dot files\deploy.ps1"
+
+# enable IIS
+.\iis\enable-iis.ps1
