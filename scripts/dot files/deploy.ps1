@@ -17,3 +17,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git $HOME\vimfiles\bundle\Vund
 
 # install vundle Plugins
 & 'C:\Program Files (x86)\vim\vim80\gvim.exe' +PluginInstall +qall
+
+# git
+Copy-Item "$root\dot-files\.gitignore" ~\
+Copy-Item "$root\dot-files\.gitconfig" ~\

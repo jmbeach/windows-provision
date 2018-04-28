@@ -17,4 +17,7 @@
 # generate shims
 .\shims\make-shims.ps1
 
+# get autohotkey scripts
+.\autohotkey\get-scripts.ps1
+
 Write-Host "Provisioning complete."
