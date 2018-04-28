@@ -18,13 +18,7 @@ $tools = @(
 	"teamviewer",
 	"vim",
 	"virtualbox",
-	"visualstudio2017community",
-	"visualstudio2017-workload-manageddesktop",
-	"visualstudio2017-workload-netcoretools",
-	"visualstudio2017-workload-netweb",
-	"visualstudio2017-workload-universal",
-	"visualstudiocode",
-	"vlc"
+	"visualstudio2017community"
 )
 
 $tools | foreach {

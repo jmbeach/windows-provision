@@ -23,3 +23,7 @@ You will be prompted if you would like to trust a publisher, type "A" for "alway
 
 After this completes, do the "Enable Script Execution" portion of these
 instructions again and then run 02.main.ps1.
+
+The software installed by 02.main.ps1 will cause further software to fail
+unless a reboot is performed. Perform a reboot and then start script
+03.main.ps1
