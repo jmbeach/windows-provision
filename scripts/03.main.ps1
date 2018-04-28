@@ -13,3 +13,8 @@
 # get my configurations
 & ".\dot files\get-dot-files.ps1"
 & ".\dot files\deploy.ps1" 
+
+# generate shims
+.\shims\make-shims.ps1
+
+Write-Host "Provisioning complete."
