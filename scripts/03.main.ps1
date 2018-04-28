@@ -20,4 +20,7 @@
 # get autohotkey scripts
 .\autohotkey\get-scripts.ps1
 
+# setup cygwin
+.\cygwin\get-apt-cyg.ps1
+
 Write-Host "Provisioning complete."
