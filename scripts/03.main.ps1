@@ -28,4 +28,10 @@
 # install powershell moduels
 &".\powershell modules\install-powershell-modules.ps1"
 
+# install global npm packages
+&".\global npm packages\install-global-npm-packages.ps1"
+
+# download my favorite postman scripts
+.\postman\get-postman-collections.ps1
+
 Write-Host "Provisioning complete."
