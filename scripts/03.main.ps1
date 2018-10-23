@@ -9,6 +9,7 @@
 & ".\custom software\simian\get-simian.ps1"
 & ".\custom software\iis\get-iis.ps1"
 & ".\custom software\pscx\get-pscx.ps1"
+& ".\custom software\regex hero\get-regex-hero.ps1"
 
 # get my configurations
 & ".\dot files\get-dot-files.ps1"
