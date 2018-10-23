@@ -1,14 +1,9 @@
 $tools = @(
-  "git",
-  "7zip",
-  "cmder",
-  "curl",
   "ffmpeg",
   "nvm",
-  "wget",
   "yarn"
 )
 
-$tools | foreach {
+$tools | ForEach-Object {
   scoop install $_
 }
