@@ -10,6 +10,7 @@
 & ".\custom software\iis\get-iis.ps1"
 & ".\custom software\pscx\get-pscx.ps1"
 & ".\custom software\regex hero\get-regex-hero.ps1"
+& ".\custom software\search and replace\get-search-and-replace.ps1"
 
 # get my configurations
 & ".\dot files\get-dot-files.ps1"
