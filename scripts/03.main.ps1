@@ -24,4 +24,7 @@
 # setup cygwin
 .\cygwin\get-apt-cyg.ps1
 
+# install powershell moduels
+&".\powershell modules\install-powershell-modules.ps1"
+
 Write-Host "Provisioning complete."
