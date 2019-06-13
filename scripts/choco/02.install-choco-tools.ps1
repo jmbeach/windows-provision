@@ -8,6 +8,6 @@ $tools = @(
 	"vlc"
 )
 
-$tools | foreach {
+$tools | ForEach-Object {
 	choco install $_ -y
 }
