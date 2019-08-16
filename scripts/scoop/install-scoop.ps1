@@ -1,1 +1,0 @@
-Invoke-Expression (new-object net.webclient).downloadstring('https://get.scoop.sh')
