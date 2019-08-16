@@ -1,8 +1,9 @@
 $modules = @(
-    'windows-screenfetch',
+    'BurntToast',
     'chocolateySourceExtensions',
     'posh-git',
-    'PowerLine'
+    'PowerLine',
+    'windows-screenfetch'
 )
 
 $modules | ForEach-Object {
