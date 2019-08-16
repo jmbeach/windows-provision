@@ -6,8 +6,16 @@ $modules = @(
     'windows-screenfetch'
 )
 
+$modulesForce = @(
+    'PANSIES',
+    'posh-git'
+)
+
 $modules | ForEach-Object {
-    Install-Module -Name $_
+    Install-Module -Name $_ -Force
 }
 
-Install-Module PANSIES -AllowClobber
+
+$modulesForce | ForEach-Object {
+    Install-Module -Name $_ -Force -AllowClobber
+}

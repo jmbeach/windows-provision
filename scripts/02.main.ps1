@@ -24,6 +24,7 @@
 
 # install powershell moduels
 &".\powershell modules\install-powershell-modules.ps1"
+&".\powershell modules\install-powerline-fonts.ps1"
 
 # install global npm packages
 &".\global npm packages\install-global-npm-packages.ps1"
