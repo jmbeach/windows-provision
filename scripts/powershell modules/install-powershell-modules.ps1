@@ -1,8 +1,12 @@
 $modules = @(
     'windows-screenfetch',
-    'chocolateySourceExtensions'
+    'chocolateySourceExtensions',
+    'posh-git',
+    'PowerLine'
 )
 
 $modules | ForEach-Object {
     Install-Module -Name $_
 }
+
+Install-Module PANSIES -AllowClobber
