@@ -14,6 +14,8 @@ Open powershell as Administrator, then, to enable script execution:
 
 then paste. When prompted, type "A" and hit enter to continue. Now scripts can execute.
 
+**NOTE:** If you are getting errors about the execution policy settings after running the aboe script, try running `Set-ExecutionPolicy Bypass`.
+
 ## Running Scripts
 
 First, open Powershell as an Administrator and run 01.main.ps1 in the
