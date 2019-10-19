@@ -24,11 +24,9 @@ $tools = @(
 	"slack",
 	"spacesniffer",
 	"teamviewer",
-	"vim",
 	"virtualbox",
 	"visualstudiocode",
 	"vlc",
-	"WinPcap",
 	"wireshark"
 )
 
