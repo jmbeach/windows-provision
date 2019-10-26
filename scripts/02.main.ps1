@@ -26,6 +26,8 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 &".\powershell modules\install-powerline-fonts.ps1"
 
 # install global npm packages
+nvm install 12.13.0
+nvm use 12.13.0
 &".\global npm packages\install-global-npm-packages.ps1"
 
 # download my favorite postman scripts
