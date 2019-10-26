@@ -6,7 +6,6 @@ $tools = @(
 	"beyondcompare",
 	"checksum",
 	"cmder",
-	"cygwin",
 	"docker",
 	"DotNet4.5.2",
 	"DotNet4.6.1",
