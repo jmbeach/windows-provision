@@ -3,7 +3,6 @@ $tools = @(
 	"7zip",
 	"angryip",
 	"autohotkey",
-	"autohotkey",
 	"beyondcompare",
 	"checksum",
 	"cmder",
