@@ -18,6 +18,9 @@
 # get autohotkey scripts
 .\autohotkey\get-scripts.ps1
 
+# enable windows subsystem
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -NoRestart
+
 # install powershell moduels
 &".\powershell modules\install-powershell-modules.ps1"
 &".\powershell modules\install-powerline-fonts.ps1"
