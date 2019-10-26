@@ -5,7 +5,6 @@
 & ".\file structure\setup-file-structure.ps1"
 
 # install custom software
-& ".\custom software\pscx\get-pscx.ps1"
 & ".\custom software\regex hero\get-regex-hero.ps1"
 & ".\custom software\search and replace\get-search-and-replace.ps1"
 
