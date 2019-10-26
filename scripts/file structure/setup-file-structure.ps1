@@ -1,9 +1,9 @@
-mkdir D:\code
-mkdir D:\code\github
-mkdir D:\code\github\jmbeach
-mkdir D:\code\bitbucket
-mkdir D:\code\bitbucket\jmbeach
-mkdir D:\code\sandbox
-mkdir ~\bin
-mkdir ~\bin\shims
+mkdir $home\code
+mkdir $home\code\github
+mkdir $home\code\github\jmbeach
+mkdir $home\code\bitbucket
+mkdir $home\code\bitbucket\jmbeach
+mkdir $home\code\sandbox
+mkdir $home\bin
+mkdir $home\bin\shims
 mkdir .\logs
