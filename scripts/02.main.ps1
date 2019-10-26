@@ -18,9 +18,6 @@
 # get autohotkey scripts
 .\autohotkey\get-scripts.ps1
 
-# setup cygwin
-.\cygwin\get-apt-cyg.ps1
-
 # install powershell moduels
 &".\powershell modules\install-powershell-modules.ps1"
 &".\powershell modules\install-powerline-fonts.ps1"
